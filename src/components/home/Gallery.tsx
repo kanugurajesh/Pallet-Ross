@@ -36,19 +36,9 @@ const Gallery: React.FC = () => {
       title: "Urban Perspective"
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1576769267415-9f2c76211a45",
-      artist: "james",
-      title: "Nature's Canvas"
-    },
-    {
       imageUrl: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9",
       artist: "elena",
       title: "Abstract Motion"
-    },
-    {
-      imageUrl: "https://images.unsplash.com/photo-1577083552431-6e5fd01988ec",
-      artist: "david",
-      title: "Geometric Harmony"
     },
     {
       imageUrl: "https://images.unsplash.com/photo-1575995872537-3793d29d972c",
