@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
                 id="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-2 border-[1px] block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-8"
                 required
               />
             </div>
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
                 id="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-2 border-[1px] block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 h-8"
                 required
               />
             </div>
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                 rows={4}
                 value={formData.message}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                className="mt-2 border-[1px] block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 required
               />
             </div>

@@ -3,7 +3,7 @@ import { HeroProps } from '../../types';
 
 const Hero: React.FC<HeroProps> = ({ title, subtitle, ctaText, ctaLink }) => {
   return (
-    <div className="relative overflow-hidden bg-white pt-24">
+    <div className="relative overflow-hidden bg-white pt-24 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-8">
