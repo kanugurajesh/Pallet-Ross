@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import data from '../../data';
 
 const Footer: React.FC = () => {
   return (
@@ -12,13 +13,13 @@ const Footer: React.FC = () => {
               Created by Kanugu Rajesh, a passionate Full Stack Software Engineer dedicated to building beautiful and functional web applications.
             </p>
             <div className="mt-4 flex space-x-4">
-              <a href="https://github.com" className="text-gray-400 hover:text-white">
+              <a href={data.github} className="text-gray-400 hover:text-white">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-white">
+              <a href={data.linkedin} className="text-gray-400 hover:text-white">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://twitter.com" className="text-gray-400 hover:text-white">
+              <a href={data.twitter} className="text-gray-400 hover:text-white">
                 <Twitter className="h-6 w-6" />
               </a>
             </div>
